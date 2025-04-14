@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  .artifact {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .artifact h2 {
+    margin-top: 0;
+  }
+  .artifact a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  .artifact a:hover {
+    text-decoration: underline;
+  }
+  .section-title {
+    margin-top: 2rem;
+    color: #444;
+  }
