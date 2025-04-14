@@ -1,0 +1,2 @@
+C:\Users\Xtree\source\repos\BinarySearchTree\x64\Debug\BinarySearchTree.exe
+C:\Users\Xtree\OneDrive\Documents\Classes\SNHU\499 CAPSTONE\module 4\BinarySearchTree\x64\Debug\BinarySearchTree.exe
