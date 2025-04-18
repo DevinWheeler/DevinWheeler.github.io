@@ -1,100 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artifact 2 - Binary Search Tree</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <a href="index.html" class="back-button">← Back to Dashboard</a>
-      <h1>Artifact 2: Binary Search Tree Enhancements</h1>
-      <p>Category: Algorithms and Data Structures</p>
-    </header>
 
-    <main>
-      <section class="artifact">
-        <h2>Artifact Overview</h2>
-        <p>
-          This artifact is a Binary Search Tree (BST) program that is written in
-          C++. It was originally developed for CS 300: Data Structures and
-          Algorithms. It was made to show off the abilities to use a BST for
-          insertion, deletion, and in order traversal. However, I wanted to add
-          a way to filter data and then sort it. So, I added the ability to soft
-          by less than a winning bid amount and then filter it by either data of
-          department.
-        </p>
-        <p>
-          <strong>Enhanced Code:</strong>
-          <a
-            href="https://github.com/DevinWheeler/DevinWheeler.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/enhanced"
-            target="_blank"
-            >View on GitHub</a
-          >
-        </p>
-        <p>
-          <strong>Original Code:</strong>
-          <a
-            href="https://github.com/DevinWheeler/DevinWheeler.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/original"
-            target="_blank"
-            >View on GitHub</a
-          >
-        </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artifact 2 - Binary Search Tree</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <img
-          src="images/artifact2.png"
-          alt="Screenshot of Artifact 2"
-          class="artifact-image"
-        />
+<body>
+  <header>
+    <a href="index.html" class="back-button">← Back to Dashboard</a>
+    <h1>Artifact 2: Binary Search Tree Enhancements</h1>
+    <p>Category: Algorithms and Data Structures</p>
+  </header>
 
-        <h3>Justification</h3>
-        <ul>
-          <li>Added bid filtering by maximum winning amount.</li>
-          <li>Implemented sorting by department or date.</li>
-          <li>Added validation for user inputs.</li>
-          <li>
-            Developed a <code>dateToInt()</code> function to accurately sort
-            date strings.
-          </li>
-          <li>Cleaned up code and improved documentation.</li>
-        </ul>
+  <main>
+    <section class="artifact">
+      <h2>Artifact Overview</h2>
+      <p>
+        This artifact is a Binary Search Tree (BST) program that is written in
+        C++. It was originally developed for CS 300: Data Structures and
+        Algorithms. It was made to show off the abilities to use a BST for
+        insertion, deletion, and in order traversal. However, I wanted to add
+        a way to filter data and then sort it. So, I added the ability to soft
+        by less than a winning bid amount and then filter it by either data of
+        department.
+      </p>
+      <p>
+        <strong>Enhanced Code:</strong>
+        <a href="https://github.com/DevinWheeler/DevinWheeler.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/enhanced"
+          target="_blank">View on GitHub</a>
+      </p>
+      <p>
+        <strong>Original Code:</strong>
+        <a href="https://github.com/DevinWheeler/DevinWheeler.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/original"
+          target="_blank">View on GitHub</a>
+      </p>
+      <p>
+        <strong>Narrative:</strong>
+        <a href="https://github.com/DevinWheeler/DevinWheeler.github.io/blob/main/Narratives/CS-499%20Algorithms%20and%20Data%20Structure.docx"
+          target="_blank">View on GitHub</a>
+      </p>
 
-        <h3>Program Outcomes Demonstrated</h3>
-        <ul>
-          <li>
-            <strong>Algorithmic Solutions:</strong> Used algorithmic
-            principles to implement custom filtering functionality using an in-order
-            BST traversal (O(n)) and sorting method based on user input (O(m log
-            m)).
-          </li>
-          <li>
-            <strong>Technical Implementation:</strong> Showed proficiency in C++
-            by extending the functionality of a BST by adding filtering,
-            sorting, and date-handling logic using cuatom solutions like
-            <code>dateToInt()</code>.
-          </li>
-          <li>
-            <strong>Professional Communication:</strong> Improved code
-            readability and usability by adding user input validation, helpful
-            prompts, and cleaning comments to clarify the functionality of the
-            code and ensure the application is easy to use and understand for
-            everyone.
-          </li>
-        </ul>
+      <img src="images/artifact2.png" alt="Screenshot of Artifact 2" class="artifact-image" />
 
-        <h3>Reflection</h3>
-        <p>
-          Enhancing this artifact taught me a lot about balancing usability with
-          efficiency. One of the hardest challenges I faced was sorting the
-          string formatted dates. At first, I couldn’t figure out why my date
-          sort was not working currently. After looking at it for some time I
-          realized C++ was just doing a string compare. So, I decided to break
-          the string apart and put it back together as an integer that would be
-          sortable. This was a reminder of how important data formatting and
-          data processing can be.
-        </p>
-      </section>
-    </main>
-  </body>
+      <h3>Justification</h3>
+      <ul>
+        <li>Added bid filtering by maximum winning amount.</li>
+        <li>Implemented sorting by department or date.</li>
+        <li>Added validation for user inputs.</li>
+        <li>
+          Developed a <code>dateToInt()</code> function to accurately sort
+          date strings.
+        </li>
+        <li>Cleaned up code and improved documentation.</li>
+      </ul>
+
+      <h3>Program Outcomes Demonstrated</h3>
+      <ul>
+        <li>
+          <strong>Algorithmic Solutions:</strong> Used algorithmic
+          principles to implement custom filtering functionality using an in-order
+          BST traversal (O(n)) and sorting method based on user input (O(m log
+          m)).
+        </li>
+        <li>
+          <strong>Technical Implementation:</strong> Showed proficiency in C++
+          by extending the functionality of a BST by adding filtering,
+          sorting, and date-handling logic using cuatom solutions like
+          <code>dateToInt()</code>.
+        </li>
+        <li>
+          <strong>Professional Communication:</strong> Improved code
+          readability and usability by adding user input validation, helpful
+          prompts, and cleaning comments to clarify the functionality of the
+          code and ensure the application is easy to use and understand for
+          everyone.
+        </li>
+      </ul>
+
+      <h3>Reflection</h3>
+      <p>
+        Enhancing this artifact taught me a lot about balancing usability with
+        efficiency. One of the hardest challenges I faced was sorting the
+        string formatted dates. At first, I couldn’t figure out why my date
+        sort was not working currently. After looking at it for some time I
+        realized C++ was just doing a string compare. So, I decided to break
+        the string apart and put it back together as an integer that would be
+        sortable. This was a reminder of how important data formatting and
+        data processing can be.
+      </p>
+    </section>
+  </main>
+</body>
+
 </html>
