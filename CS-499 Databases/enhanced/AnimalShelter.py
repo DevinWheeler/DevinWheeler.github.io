@@ -1,10 +1,16 @@
 from pymongo import MongoClient
 from bson.objectid import ObjectId
+import os
+from dotenv import load_dotenv
 
 class AnimalShelter(object):
     """ CRUD operations for Animal collection in MongoDB """
 
-    def __init__(self, username='aacuser', password='password', host='localhost', port=27017, db='AAC', collection='animals'):
+    # Get environment variables from .env file
+    username = os.getenv('DB_USERNAME')
+    password = os.getenv('DB_PASSWORD')
+
+    def __init__(self, username=username, password=password, host='localhost', port=27017, db='AAC', collection='animals'):
         # Initializing the MongoClient
         uri = f'mongodb://{username}:{password}@{host}:{port}/?authSource={db}'
         self.client = MongoClient(uri)
